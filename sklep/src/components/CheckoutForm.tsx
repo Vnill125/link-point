@@ -15,7 +15,7 @@ const CheckoutForm = () => {
   useEffect(() => {
     fetchCart();
   }, []);
-  
+
   const sendOrder = async (formData: any) => {
     try {
       const response = await fetch('http://188.137.111.131:8083/api/orders', {
