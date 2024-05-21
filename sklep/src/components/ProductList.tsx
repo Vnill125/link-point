@@ -17,7 +17,7 @@ interface Product {
 interface ProductGroup {
   uuid: string;
   name: string;
-}
+} 
 
 const ProductList: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
