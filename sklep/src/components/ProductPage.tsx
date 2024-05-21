@@ -113,6 +113,6 @@ const ProductPage: React.FC = () => {
       )}
     </div>
   );
-};
+}; 
 
 export default ProductPage;
