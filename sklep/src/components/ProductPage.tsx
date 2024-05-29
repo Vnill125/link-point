@@ -64,7 +64,7 @@ const ProductPage: React.FC = () => {
       alert('Product is already in the cart!');
       return;
     }
-
+    
     const token: string = 'Bearer twój token autoryzacyjny'; // Token autoryzacyjny
     const payload = {
       items: [
